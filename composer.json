@@ -31,5 +31,14 @@
       "cms-package-dir": "{$vendor-dir}/typo3/cms",
       "web-dir": "web"
     }
+  },
+
+  "scripts": {
+    "post-install-cmd": [
+      "mv -f vendor/Tnt/unify-package web/typo3conf/ext/unify_theme"
+    ],
+    "post-update-cmd": [
+      "mv -f vendor/Tnt/unify-package web/typo3conf/ext/unify_theme"
+    ]
   }
 }

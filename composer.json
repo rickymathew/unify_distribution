@@ -8,8 +8,8 @@
   ],
 
 
-  "name": "typo3/unify-distribution",
-  "description" : "TYPO3 CMS Base Distribution",
+  "name": "Tnt/unify-distribution",
+  "description" : "TYPO3 CMS Custom Distribution",
   "license": "GPL-2.0+",
   "require": {
     "typo3/cms": "^7.6",

@@ -2,8 +2,8 @@
   "repositories": [
     { "type": "composer", "url": "https://composer.typo3.org/" },
     {
-      "type": "git",
-      "url": "https://bitbucket.org/rickymk/unify_package/"
+      "type": "vcs",
+      "url": "git@bitbucket.org:rickymk/unify_package.git"
     }
   ],
 
@@ -35,10 +35,10 @@
 
   "scripts": {
     "post-install-cmd": [
-      "mv -f vendor/Tnt/unify-package typo3conf/ext/unify_theme"
+      "mv -f vendor/tnt/unify-package typo3conf/ext/unify_theme"
     ],
     "post-update-cmd": [
-      "mv -f vendor/Tnt/unify-package typo3conf/ext/unify_theme"
+      "mv -f vendor/tnt/unify-package typo3conf/ext/unify_theme"
     ]
   }
 }

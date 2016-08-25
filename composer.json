@@ -3,7 +3,7 @@
     { "type": "composer", "url": "https://composer.typo3.org/" },
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:rickymk/unify_package.git"
+      "url": "https://rickymk@bitbucket.org/rickymk/unify_package.git"
     }
   ],
 

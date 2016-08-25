@@ -3,7 +3,7 @@
     { "type": "composer", "url": "https://composer.typo3.org/" },
     {
       "type": "git",
-      "url": "https://github.com/rickymathew/unify_package"
+      "url": "https://bitbucket.org/rickymk/unify_package/"
     }
   ],
 
@@ -29,16 +29,16 @@
   "extra": {
     "typo3/cms": {
       "cms-package-dir": "{$vendor-dir}/typo3/cms",
-      "web-dir": "web"
+      "web-dir": "/"
     }
   },
 
   "scripts": {
     "post-install-cmd": [
-      "mv -f vendor/Tnt/unify-package web/typo3conf/ext/unify_theme"
+      "mv -f vendor/Tnt/unify-package typo3conf/ext/unify_theme"
     ],
     "post-update-cmd": [
-      "mv -f vendor/Tnt/unify-package web/typo3conf/ext/unify_theme"
+      "mv -f vendor/Tnt/unify-package typo3conf/ext/unify_theme"
     ]
   }
 }

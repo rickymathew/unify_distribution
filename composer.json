@@ -35,7 +35,7 @@
 
   "scripts": {
     "post-install-cmd": [
-      "mv -f vendor/tnt/unify-package typo3conf/ext/unify_theme"
+      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme"
     ],
     "post-update-cmd": [
       "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme"

@@ -24,7 +24,8 @@
     "typo3-ter/ods-ajaxmailsubscription": "^1.6",
     "typo3-ter/fluidcontent": "^4.4",
     "typo3-ter/t3adminer": "^7.0",
-    "tnt/unify-theme":"1.0.4"
+    "tnt/unify-theme":"1.0.4",
+    "pitsolutionstypo3/tnt_lightgallery":"1.0.2"
   },
   "extra": {
     "typo3/cms": {
@@ -35,10 +36,12 @@
 
   "scripts": {
     "post-install-cmd": [
-      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme"
+      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme",
+      "mv -f vendor/pitsolutionstypo3/tnt_lightgallery typo3conf/ext/tnt_lightgallery"
     ],
     "post-update-cmd": [
-      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme"
+      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme",
+      "mv -f vendor/pitsolutionstypo3/tnt_lightgallery typo3conf/ext/tnt_lightgallery"
     ]
   }
 }

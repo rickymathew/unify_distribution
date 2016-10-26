@@ -48,9 +48,7 @@
       "mv -f typo3conf/ext/unify_theme/Resources/Public/reaurl_conf.php typo3conf/reaurl_conf.php"
     ],
      "post-update-cmd": [
-      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme",
-      "mv -f typo3conf/ext/unify_theme/Resources/Public/fileadmin fileadmin",
-      "mv -f typo3conf/ext/unify_theme/Resources/Public/uploads uploads"
+      "mv -f typo3conf/ext/unify_theme/README.md typo3conf/README.md"
      ]
   }
 }

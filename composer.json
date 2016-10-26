@@ -44,7 +44,7 @@
     "post-install-cmd": [
       "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme",
       "mv -f typo3conf/ext/unify_theme/Resources/Public/fileadmin fileadmin",
-      "mv -f typo3conf/ext/unify_theme/Resources/Public/uploads uploads"
+      "mv -f typo3conf/ext/unify_theme/Resources/Public/uploads uploads",
       "mv -f typo3conf/ext/unify_theme/Resources/Public/realurl_conf.php typo3conf/realurl_conf.php"
     ]
   }

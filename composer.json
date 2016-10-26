@@ -42,12 +42,10 @@
 
   "scripts": {
     "post-install-cmd": [
-      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme",
-      "mv -f vendor/pitsolutionstypo3/tnt_lightgallery typo3conf/ext/tnt_lightgallery"
+      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme"
     ],
     "post-update-cmd": [
-      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme",
-      "mv -f vendor/pitsolutionstypo3/tnt_lightgallery typo3conf/ext/tnt_lightgallery"
+      "mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme"
     ]
   }
 }

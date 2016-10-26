@@ -45,6 +45,6 @@
       "sudo mv -f vendor/tnt/unify-theme typo3conf/ext/unify_theme",
       "sudo mv -f typo3conf/ext/unify_theme/Resources/Public/fileadmin fileadmin",
       "sudo mv -f typo3conf/ext/unify_theme/Resources/Public/uploads uploads"
-    ],
+    ]
   }
 }

@@ -4,7 +4,13 @@
     {
       "type": "vcs",
       "url": "https://rickymk@bitbucket.org/rickymk/unify_theme.git"
+    },
+
+    {
+        "type": "vcs",
+        "url": "https://github.com/pitsolutionstypo3/tnt_lightgallery.git"        
     }
+
   ],
 
 

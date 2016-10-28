@@ -46,6 +46,7 @@
       "mv -f typo3conf/ext/unify_theme/Resources/Public/fileadmin fileadmin",
       "mv -f typo3conf/ext/unify_theme/Resources/Public/uploads uploads",
       "mv -f typo3conf/ext/unify_theme/Resources/Public/realurl_conf.php typo3conf/realurl_conf.php",
+      "cp typo3conf/ext/unify_theme/Resources/Public/Icons/Page/favicon.ico favicon.ico",
       "cp vendor/typo3/cms/_.htaccess .htaccess"
     ]
   }

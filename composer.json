@@ -18,7 +18,7 @@
   "description" : "TYPO3 CMS Custom Distribution",
   "license": "GPL-2.0+",
   "require": {
-    "typo3/cms": "^7.6",
+    "typo3/cms": "7.6.11",
     "typo3-ter/news": "^4.3",
     "typo3-ter/powermail": "^3.4",
     "typo3-ter/vhs":"3.0.1",

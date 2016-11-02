@@ -1,16 +1,16 @@
 {
   "repositories": [
-    { "type": "composer", "url": "https://composer.typo3.org/" },
+    {  "type": "composer", 
+       "url": "https://composer.typo3.org/" 
+    },
     {
       "type": "vcs",
-      "url": "https://rickymk@bitbucket.org/rickymk/unify_theme.git"
+      "url": "https://tntgraphics@bitbucket.org/tntgraphics/unify_theme.git"
     },
-
     {
         "type": "vcs",
-        "url": "https://github.com/pitsolutionstypo3/tnt_lightgallery.git"        
+        "url": "https://github.com/pitsolutionstypo3/tnt_lightgallery.git"
     }
-
   ],
 
 
@@ -30,7 +30,7 @@
     "typo3-ter/ods-ajaxmailsubscription": "^1.6",
     "typo3-ter/fluidcontent": "^4.4",
     "typo3-ter/t3adminer": "^7.0",
-    "tnt/unify-theme":"^1.1.5",
+    "tnt/unify-theme":"^1.0.0",
     "pitsolutionstypo3/tnt_lightgallery":"1.0.3"
   },
   "extra": {
